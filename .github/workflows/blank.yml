@@ -1,7 +1,6 @@
 name: Frequent Job
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '*/1 * * * *'  # Runs every minute to start the job
 
