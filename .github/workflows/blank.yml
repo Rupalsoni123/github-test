@@ -2,7 +2,7 @@ name: Frequent Job
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Runs every minute to start the job
+    - cron: '*/6 * * * *'  # Runs every minute to start the job
 
 jobs:
   frequent-job:
