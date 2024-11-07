@@ -2,7 +2,7 @@ name: First Cron Job
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow every 5 minutes
+  # Triggers the workflow every minute
   schedule:
     - cron: "*/1 * * * *"
 
@@ -11,7 +11,7 @@ jobs:
   # This workflow contains a single job called "cron"
   cron:
     # The type of runner that the job will run on
-    runs-on: self-hosted # Specify the self-hosted runner label here
+    runs-on: self-hosted  # Use the self-hosted runner
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
